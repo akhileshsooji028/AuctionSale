@@ -1,0 +1,26 @@
+Api-Project
+
+Steps to follow:
+
+1. http://localhost:3000/users
+2. {
+    "name":"abc",
+    "password": "abc123",
+    "emailId": abc@gmail.com
+   }
+3. http://localhost:3000/products
+4. Fill the required fields
+	a. productName
+	b. description
+	c. startingPrice
+	d. productImage - image that you to upload.
+5. http://localhost:3000/bidding/
+6. Give the UserId and ItemId and your bidding rate as shown:
+	a. itemId
+	b. userId
+	c. biddingAmt
+7. the goto http://localhost:3000/products/:id
+	a. Copy the product Id
+	b. search product by Id.
+	c. you will get the details of the winner dn the email will be sent to the user won.
+
